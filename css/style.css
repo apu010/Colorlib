@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* top: 0;
+    right: 0;
+    left: 0; */
+    text-decoration: none;
+    overflow: hidden;
+}
+.main{
+    width: 100%;
+    height: 685px;
+    /* background: black; */
+    display: flex;
+}
+.main .m1{
+    width: 50%;
+    height: 100%;
+    background: rgba(206, 206, 206, 0.274);
+}
+.m1 .t1{
+    width: 100%;
+    height: 100%;
+    /* background: black; */
+    padding-left: 100px;
+    padding-top: 20px;
+}
+.m1 .t1 h4{
+    font-weight: bold;
+}
+.m1 .t1 h5{
+    margin-top: 140px;
+    color: #D5C455;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+}
+.m1 .t1 h1{
+    font-size: 80px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.m1 .t1 .button {
+    display: flex;
+    gap: 10px;
+}
+.m1 .t1 .button .btn{
+    background: #D5C455;
+    border: none;
+    padding: 17px 35px;
+    border-radius: 0%;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 15px;
+}
+.m1 .t1 .button #btn2{
+    background: white;
+    color: black;
+}
+.m1 .t1 .button .btn:hover{
+    background: dodgerblue;
+}
+.main .m2{
+    width: 50%;
+    height: 100%;
+    height: 100%;
+    background: #D5C455;
+    position: relative;
+    
+}
+.main .m2 .carousel .carousel-inner .carousel-item{
+    height: 685px;
+}
+.main .m2 .carousel .carousel-inner .carousel-item img{
+    height: 120%;
+    margin-top: 20px;
+    object-fit: contain;
+    /* position: absolute;  */
+}
+.m2 .btn{
+    border: none;
+}
+.main .m2 .btn i{
+    text-align: right; 
+    margin-left: 570px;
+    margin-top: 50px; 
+    position: absolute;
+    z-index: 1;
+    color: black;
+    font-size: 3vh;
+}
+fdfdfdf
